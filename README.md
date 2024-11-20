@@ -87,3 +87,27 @@ A API **WattEco** foi desenvolvida com o objetivo de contribuir para a melhoria 
     "senha": "abcdef"
   }
 ]
+
+### 2. **Obter Usuário por ID**
+
+**Descrição:** Retorna os detalhes de um usuário específico com base no ID fornecido.
+
+**Método:** `GET`
+
+**URL:** `/api/usuarios/{id}`
+
+### Parâmetros:
+
+| Nome | Tipo | Obrigatório | Descrição |
+| --- | --- | --- | --- |
+| `id` | `int` | Sim | ID do usuário. |
+
+### Resposta de Sucesso:
+
+```json
+{
+  "id": 1,
+  "nome": "João Silva",
+  "email": "joao@gmail.com",
+  "senha": "123456"
+}
