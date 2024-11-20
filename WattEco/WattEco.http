@@ -1,0 +1,6 @@
+@WattEco_HostAddress = http://localhost:5043
+
+GET {{WattEco_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
