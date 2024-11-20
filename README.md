@@ -87,6 +87,7 @@ A API **WattEco** foi desenvolvida com o objetivo de contribuir para a melhoria 
     "senha": "abcdef"
   }
 ]
+ ```
 
 ### 2. **Obter Usuário por ID**
 
