@@ -47,7 +47,7 @@ var app = builder.Build();
 
 // Treinar e salvar o modelo antes de iniciar a aplicação
 var trainer = new SentimentAnalysisTrainer();
-trainer.TrainAndSaveModel(@"C:\Users\tesiq\OneDrive\Documentos\FIAP PROJETOS\2TDSPK\WattEco\WattEco\TrainedModels\energyConsumptionModel.zip");
+trainer.TrainAndSaveModel(@"C:\WattEco\WattEco\TrainedModels\energyConsumptionModel.zip");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

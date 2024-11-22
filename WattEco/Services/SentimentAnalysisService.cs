@@ -13,7 +13,7 @@ namespace WattEco.Services
         {
             _mlContext = new MLContext();
             // Carregar o modelo treinado
-            _model = LoadModel(@"C:\Users\tesiq\OneDrive\Documentos\FIAP PROJETOS\2TDSPK\WattEco\WattEco\TrainedModels\energyConsumptionModel.zip");
+            _model = LoadModel(@"C:\WattEco\WattEco\TrainedModels\energyConsumptionModel.zip");
         }
 
         public SentimentPrediction Predict(string text)
